@@ -4,7 +4,7 @@
 
 *Q*: Why I'm creating this repository?
 
-*A*: I'm enrolled in an IT university and for the exam "Planning and development of real-time systems" we have to create an instance of a VM with a patched Linux kernel that supports RT stuff. For more infos on what is a Real Time Operating System, check out [here](https://en.wikipedia.org/wiki/Real-time_operating_system).
+*A*: I'm enrolled in an IT university and for the exam "Design and development of real-time systems" we have to create an instance of a VM with a patched Linux kernel that supports RT stuff. For more infos on what is a Real Time Operating System, check out [here](https://en.wikipedia.org/wiki/Real-time_operating_system).
 
 *Q*: What is Multipass?
 
