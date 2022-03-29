@@ -100,11 +100,18 @@ Finally just reboot your VM (using `sudo reboot` if connected via shell or `mult
 
 # Bugs
 
-Apparently on macOS, QEMU has a weird bug that will double the amount of used RAM. In case you have limited RAM, set up 3GB by editing `--mem xG` (where `x` stands for the amount of RAM GBs).
-
+1. Apparently on macOS, QEMU has a weird bug that will double the amount 
+of 
+used RAM. In case you have limited RAM, set up 3GB by editing `--mem xG` (where `x` stands for the amount of RAM GBs).
 From what I'm experiencing, 6GB of memory will be used even if you setup 3GB. And for M1 users with just 8GB, it's really painful... Sorry guys but this doesn't depend on me.
 
-# Credits
+2. High latency
+
+Due to a virtualized environment, it's pretty normal that you'll 
+experience high latencies (I'm getting 420ms, and that's pretty nice, 
+considered that I'm on QEMU).
+
+ # Credits
 
 - my IT teacher (idk if he has a GitHub account or not, in such case feel free to open a PR)
 - [@b0rderljne](https://github.com/b0rderljne) for helping me through existential crises while setting up RDP
