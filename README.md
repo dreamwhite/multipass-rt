@@ -114,4 +114,5 @@ considered that I'm on QEMU).
  # Credits
 
 - my IT teacher (idk if he has a GitHub account or not, in such case feel free to open a PR)
-- [@b0rderljne](https://github.com/b0rderljne) for helping me through existential crises while setting up RDP
+- [@b0rderljne](https://github.com/b0rderljne) for helping me through existential crises while setting up RDP and letting me discover Multipass on macOS (i didn't thought it would be available on this platform hehe)
+- [@gius01](https://github.com/gius01) for the QT5 framework installation
